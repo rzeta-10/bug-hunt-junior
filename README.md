@@ -1,1 +1,1 @@
-# bug-hunt-junior
+# BUG HUNT (First Year Track)
