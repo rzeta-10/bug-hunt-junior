@@ -2,7 +2,7 @@
 
 #include<iostream>
 #include<string>
-
+#include<ctype.h>
 int main(){
     std :: string s = "Hello World";
 
