@@ -4,7 +4,7 @@
 using namespace std;
 
 int i = 5;
-int j;
+int j; #j is not initialized so j takes the garbage value
 
 int foo(int j) {
   for (i=0; i<j; i++){
