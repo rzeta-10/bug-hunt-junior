@@ -7,7 +7,7 @@ def decimal_to_binary(decimal_num):
     while integer_part > 0:
         binary = str(integer_part % 2) + binary
         integer_part = integer_part // 2
-    binary = "." + binary
+    #binary = "." + binary
     while fractional_part > 0:
         fractional_part *= 2
         binary += str(int(fractional_part))
