@@ -52,6 +52,9 @@ while True:
     if choice == 1:
         name = input("Enter the name: ")
         number = input("Enter the number: ")
+        if(len(number)>10):
+            print("Number Entered has more than 10 digits")
+            break
         phonebook.add_contact(name, number)
     elif choice == 2:
         name = input("Enter the name: ")
