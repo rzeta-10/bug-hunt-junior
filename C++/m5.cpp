@@ -29,13 +29,13 @@ vector<int> spiralOrder(vector<vector<int> >& matrix)
 		int newX = x + dr[di];
 		int newY = y + dc[di];
 
-		if (0 <= newX || newX < m && 0 <= newY || newY < n
+		if (0 <= newX && newX < m && 0 <= newY && newY < n
 			&& !seen[newX][newY]) {
 			x = newX;
 			y = newY;
 		}
 		else {
-			di = (di + 1) / 4;
+			di = (di + 1) % 4;
 			x += dr[di];
 			y += dc[di];
 		}
