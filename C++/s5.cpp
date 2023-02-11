@@ -2,7 +2,7 @@
 using namespace std;
 
 
-int main(void){
+int main(){
     string string1 = "Hello";
     string string2 = "Horld";
 
@@ -10,4 +10,6 @@ int main(void){
     cout << "Equal";
     else
     cout << "Not Equal";
+    
+    return 0;
 }
